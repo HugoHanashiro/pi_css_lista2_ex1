@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    background-color: #000000;
+    font-family: monospace;
+}
+a{
+    text-decoration: none;
+    color: goldenrod;
+}
+.header{
+    border-bottom: 3px solid aqua;
+}
+.container{
+    margin: auto;
+    width: 80%;
+    display: flex;
+}
+.header .container{
+    /* margin: auto; */
+    justify-content: space-between;
+}
+
+.header ul .item1{
+    font-weight: 700;
+    font-size: large;
+}
+/* ul {
+    color: brown;
+} */
+.titulo{
+    color: aqua;
+    width: fit-content;
+    font-weight: 500;
+}
+.navBar{
+    color: goldenrod;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    /* padding: 0; */
+    align-items: center;
+}
+
+/* Fim do Cabeçalho */
+
+/* Começo do banner */
+
+.banner {
+    background-image: url("Aula_HTML_CSS/imgs/bg-jelly-fish-para-home.png");
+    height: 500px;
+    color: white;
+    display: flex;
+}
+
+.banner .container p span{
+    font-weight: 1000;
+}
+
+.banner .container{
+    font-size: 46px;
+    justify-content: center;
+}
+
+.banner .container p{
+    width: 10%;
+    font-size: 46px;
+    justify-content: center;
+}
+
+/* Fim do banner */
+
+/* Começo do social */
+
+.social{
+    background-color: beige;
+    display: flex;
+}
+
+.social .container .boxes .box img{
+    width: 170px;
+}
+
+.social .container .boxes {
+    display: flex;
+}
+
+.box {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Fim do social */
+
+/* Começo do footer */
+
+.footer{
+    background-color: #32b9cd;
+    height: 150px;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.footer .container{
+    justify-content: center;
+}
+
+/* Fim do footer */
+
+/* Começo da página de login */
+.banner .container .card {
+    background-color: beige;
+    height: fit-content;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: palevioletred;
+    align-items: center;
+    border-radius: 10%;
+    padding: 20px 10px;
+}
+
+.card h1{
+    font-size: 30px;
+}
+
+.card {
+    font-size: 16px;
+}
+
+.card input {
+    border: palevioletred solid 3px;
+    padding: 5px;
+    text-align: center;
+}
+
+.card button {
+    width: fit-content;
+    height: 50px;
+    background-color: palevioletred;
+    margin-top: 25px;
+    padding: 0px 10px;
+    font-size: 20px;
+    font-family: monospace;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Fim da página de login */
+
+/* Começo da página de cadastro */
+
+.bannerCadastro {
+    height: fit-content;
+    padding: 50px 0px;
+}
